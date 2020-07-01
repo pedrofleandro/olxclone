@@ -5,6 +5,7 @@ import useApi from '../../helpers/OlxAPI';
 
 
 import { PageContainer } from '../../components/MainComponents';
+import AdItem from '../../components/partials/AdItem';
 
 const Page = () => {
     const api = useApi();
@@ -71,7 +72,17 @@ const Page = () => {
 
             <PageContainer>
                 <PageArea>
-                    ...
+                    <h2>Anúncios Recentes</h2>
+                    <div className="list">
+                        {adList.map((i,k)=>
+                            <AdItem key={k} data={i} />
+                        )}
+                    </div>
+                    <Link to="/ads" className="seeAllLink" >Ver todos</Link>
+
+                    <hr/>
+
+                    is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                 </PageArea>
             </PageContainer>
         </>
