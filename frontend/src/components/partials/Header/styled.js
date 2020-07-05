@@ -28,9 +28,9 @@ export const HeaderArea = styled.div`
             font-weight: bold;
         }
 
-        .logo-1 { color: #ff0000 }
-        .logo-2 { color: #00ff00 }
-        .logo-3 { color: #0000ff }
+        .logo-1 { color: #6E0AD6 }
+        .logo-2 { color: #83D65C }
+        .logo-3 { color: #F28000 }
     }
 
 nav {
