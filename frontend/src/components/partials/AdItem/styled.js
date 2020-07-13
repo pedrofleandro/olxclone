@@ -25,7 +25,26 @@ a {
     .itemName {
         font-wight: bold;
     }
-}
 
+    .editAd {
+        display: flex;
+        flex-direction: row-reverse;
+    
+        div {
+            padding: 5px;
+            background-color: #0089ff;
+            color: #fff;
+            font-size: 14px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #006fce;
+            }
+        }
+    }
+}
 
 `;

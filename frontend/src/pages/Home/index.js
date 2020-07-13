@@ -42,8 +42,6 @@ const Page = () => {
         getRecentAds();
     }, []);
 
-
-
     return (
         <>
             <SearchArea>

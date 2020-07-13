@@ -20,3 +20,11 @@ export const ErrorMessage = styled.div`
     border: 2px solid #ff0000;
     padding: 10px;
 `;
+
+export const SuccessMessage = styled.div`
+    margin: 10px 0;
+    background-color: #02BF2A;
+    color: #000;
+    border: 2px solid #028A2A;
+    padding: 10px;
+`;
